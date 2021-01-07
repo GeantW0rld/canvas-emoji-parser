@@ -1,5 +1,5 @@
 import { CanvasRenderingContext2D } from "canvas";
-import { Util } from "./Util";
+import { Util, ParsedChunks } from "./Util";
 
 export interface MeasureTextData {
     width: number;
@@ -15,7 +15,7 @@ export interface DrawTextWithEmojiParams {
 class CanvacordEmojiParser {
 
     constructor() {
-        throw new Error(`The ${this.constructor.name} may not be instantiated!`);
+        throw new Error(`The ${this.constructor.name} class may not be instantiated!`);
     }
 
     static async drawTextWithEmoji(context: CanvasRenderingContext2D, fillType: "fill" | "stroke", text: string, x: number, y: number, options?: DrawTextWithEmojiParams): Promise<void> {
@@ -124,4 +124,4 @@ export function strokeTextWithTwemoji(context: CanvasRenderingContext2D, text: s
     return CanvacordEmojiParser.drawTextWithEmoji(context, "stroke", text, x, y, options);
 }
 
-export { CanvacordEmojiParser, Util };
+export { CanvacordEmojiParser, Util, ParsedChunks };

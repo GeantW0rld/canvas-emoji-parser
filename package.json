@@ -1,8 +1,9 @@
 {
   "name": "@canvacord/emoji-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emoji parser for canvacord.",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "cd test && node index.js"

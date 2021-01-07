@@ -10,7 +10,7 @@ export type ParsedChunks = (string | { url: string })[];
 class Util {
 
     constructor() {
-        throw new Error(`The ${this.constructor.name} may not be instantiated!`);
+        throw new Error(`The ${this.constructor.name} class may not be instantiated!`);
     }
 
     static parseDiscordEmojis(textEntities: string[]): ParsedChunks {
