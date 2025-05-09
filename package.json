@@ -1,7 +1,7 @@
 {
-  "name": "@canvacord/emoji-parser",
+  "name": "canvas-emoji-parser",
   "version": "1.0.1",
-  "description": "Emoji parser for canvacord.",
+  "description": "Emoji parser for canvas.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -10,25 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevSnowflake/emoji-parser.git"
+    "url": "git+https://github.com/GeantW0rld/canvas-emoji-parser.git"
   },
   "keywords": [
     "emoji",
     "canvacord",
     "parser"
   ],
-  "author": "Snowflake107",
+  "author": "GeantWorld",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DevSnowflake/emoji-parser/issues"
+    "url": "https://github.com/GeantW0rld/canvas-emoji-parser/issues"
   },
-  "homepage": "https://github.com/DevSnowflake/emoji-parser#readme",
-  "devDependencies": {
-    "@types/node": "^14.14.20",
-    "@types/twemoji-parser": "^12.1.0",
-    "canvas": "^2.6.1"
-  },
+  "homepage": "https://github.com/GeantW0rld/canvas-emoji-parser#readme",
   "dependencies": {
-    "twemoji-parser": "^13.0.0"
+    "@twemoji/parser": "^16.0.0",
+    "canvas": "^3.1.0"
   }
 }

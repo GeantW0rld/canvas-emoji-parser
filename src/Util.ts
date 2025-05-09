@@ -1,4 +1,4 @@
-import { parse } from "twemoji-parser";
+import { parse } from "@twemoji/parser";
 import { loadImage, Image } from "canvas";
 
 const emojiCache = new Map<string, Image>();

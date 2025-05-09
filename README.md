@@ -1,5 +1,8 @@
-# Emoji Parser
-Emoji parser for **[Canvacord](https://npmjs.com/package/canvacord)**.
+# Canvas Emoji Parser
+Emoji parser for **[canvas](https://www.npmjs.com/package/canvas)**.
+
+# notes
+this is a fork from [emoji-parser]("https://github.com/twlite/emoji-parser"), I just updated dependencies
 
 # Emojis
 - twemoji
@@ -8,14 +11,14 @@ Emoji parser for **[Canvacord](https://npmjs.com/package/canvacord)**.
 # Installing
 
 ```sh
-$ npm i @canvacord/emoji-parser
+$ npm i canvas-emoji-parser
 ```
 
 # Example
 
 ```js
 const Canvas = require("canvas");
-const { fillTextWithTwemoji } = require("@canvacord/emoji-parser");
+const { fillTextWithTwemoji } = require("canvas-emoji-parser");
 const fs = require("fs");
 
 const canvas = Canvas.createCanvas(500, 270);
@@ -38,7 +41,7 @@ fillTextWithTwemoji(ctx, "Hello World 😊 <:kek:750253062689652768>", 120, 150)
 ## With Typescript
 
 ```ts
-import { fillTextWithTwemoji } from "@canvacord/emoji-parser";
+import { fillTextWithTwemoji } from "canvas-emoji-parser";
 ```
 
 ## Preview
