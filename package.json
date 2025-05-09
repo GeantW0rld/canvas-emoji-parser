@@ -1,6 +1,6 @@
 {
-  "name": "canvas-emoji-parser",
-  "version": "1.0.0",
+  "name": "emoji-parser-for-canvas",
+  "version": "1.0.2",
   "description": "Emoji parser for canvas.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
