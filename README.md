@@ -2,7 +2,7 @@
 Emoji parser for **[canvas](https://www.npmjs.com/package/canvas)**.
 
 # notes
-this is a fork from [emoji-parser]("https://github.com/twlite/emoji-parser"), I just updated dependencies
+this is a fork from [emoji-parser](https://github.com/twlite/emoji-parser), I just updated dependencies
 
 # Emojis
 - twemoji
